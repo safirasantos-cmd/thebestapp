@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+.cardcuteeevee {
+  text-align: center;
+}
+
+
+.pokemon-container{
+  font-family: "Rubik Puddles", system-ui;
+  text-align: center;
+  gap: 20px;
+}
+.pokemon-card{
+background-color: transparent;
+margin-left: auto; 
+margin-right: auto;
+height: 490px;
+width: 400px;
+border-style: dashed;
+border-style: solid;
+border-radius: 60px;
+box-shadow: 0px 4px 30px black;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 35px;
+  font-size: 20px;
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background: url(https://wallpapercave.com/wp/wp754089.jpg)
+}
+.pokemon-card img {
+  height:300px;
+}
+
+.h3 {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;      
+    margin: 0;
+}
